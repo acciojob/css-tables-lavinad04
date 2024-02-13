@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+td ,th {
+	border:  1px solid #ccc;
+	border-radius: 5px;
+    padding: 0.5rem;
+}
+tr:nth-child(even){
+	background-color: #ffffff;
+}
+
+tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+
+
+
+Background color of odd rows should be #f2f2f2 and of even rows should be #ffffff
